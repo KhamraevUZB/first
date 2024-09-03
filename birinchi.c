@@ -292,30 +292,30 @@
 // }
 
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main() {
-//   int n = 5;
+int main() {
+  int n = 5;
 
-//   for (int i = 1; i <= n; i++) {
+  for (int i = 1; i <= n; i++) {
     
-//     for (int j = i; j < n; j++) {
-//       printf(" ");
-//     }
+    for (int j = i; j < n; j++) {
+      printf(" ");
+    }
 
-//     for (int k = 1; k <= 2 * i-1; k++) {
-//       if (k == 1 || k == 2 * i-1 || i == n) {
-//         printf("*");
-//       } else {
-//         printf(" ");
-//       }
-//     }
+    for (int k = 1; k <= 2 * i-1; k++) {
+      if (k == 1 || k == 2 * i-1 || i == n) {
+        printf("*");
+      } else {
+        printf(" ");
+      }
+    }
 
-//     printf("\n");
-//   }
+    printf("\n");
+  }
 
-//   return 0;
-// }
+  return 0;
+}
 
 
 // #include <stdio.h>
